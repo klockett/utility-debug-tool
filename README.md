@@ -2,15 +2,15 @@
 created by Elgatha Lee for WDD program at Full Sail University.<br>
 
 
-#Purpose<br>
+# Purpose<br>
 Sumo Debug is a very simple/rudimentary debug tool assist developers in debugging their API application.
 
-#Installation
+# Installation
 <br>
 Using utility-debug-tool aka sumo-debug begin the process in your terminal by<br>
 typing npm install sumo-debug ...<br>
 
-#Dependents
+# Dependents
 <br>
 There are several dependencies that are in the package.json file, but the main ones that make Sumo Debug work are:<br>
 "eslint": "^3.17.1",<br>
@@ -21,7 +21,7 @@ There are several dependencies that are in the package.json file, but the main o
 "mocha-sinon": "^1.1.6",<br>
 "sinon": "^1.17.7"<br>
 <br>
-#Usage
+# Usage
 <br>
 To turn on Sumo-Debug you have to include dotenv into the project.<br>
 To accomplish this you MUST do: npm install dotenv<br>
