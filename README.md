@@ -28,10 +28,10 @@ To accomplish this you MUST do: npm install dotenv<br>
 
 After you have done that you MUST create a .env file and declare DEBUG=true<br>
 None of this means anything if you don't require the dotenv<br>
-  require('dotenv')<br>
-  then add .config()<br>
-  and in config add sumo-debug<br>
-  something like this:<br>
-  require('dotenv').config('sumo-debug');<br>
+  1. require('dotenv')<br>
+  2. then add .config()<br>
+  3. and in config add sumo-debug<br>
+  4. something like this:<br>
+  5. require('dotenv').config('sumo-debug');<br>
 using sumo-debug allows you to do something that I feel is important<br>
 it will allow you to log messages which will be displayed in your console.<br>
