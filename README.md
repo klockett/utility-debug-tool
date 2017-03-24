@@ -35,3 +35,5 @@ None of this means anything if you don't require the dotenv<br>
   5. require('dotenv').config('sumo-debug');<br>
 using sumo-debug allows you to do something that I feel is important<br>
 it will allow you to log messages which will be displayed in your console.<br>
+
+-Now you can run the tool using DEBUG=true nodemon src/test.js
