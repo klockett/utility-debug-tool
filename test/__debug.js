@@ -1,14 +1,16 @@
-// These are global
+// These are global dependencies
 const expect = require('chai').expect;
 const util = require('../src/debug');
 require('mocha-sinon');
 
-describe('This is running debug test:', () => {
-  beforeEach(function () {
-    this.sinon.stub(console, 'log');
-    this.sinon.stub(console, 'error');
-    this.sinon.stub(console, 'warn');
-  });
+process.env.DEBUG= true;
+
+describe ('NX-Utility-Tool', (done) => {
+  beforeEach(function() {
+   this.sinon.stub(console, 'log');
+   this.sinon.stub(console, 'error');
+   this.sinon.stub(console, 'warn');
+ });
 
   it('The test to check for error(s) is running', (done) => {
     util.debug('Error', 'error');
